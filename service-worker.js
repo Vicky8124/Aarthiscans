@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Aarthiscans/precache-manifest.bd6d50c1cf9d8504b5d5534bd6b50347.js"
+  "/Aarthiscans/static/js/precache-manifest.8fd142d40928d20926cd41ee3afc8d16.js"
 );
 
 workbox.skipWaiting();
@@ -29,7 +29,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Aarthiscans/index.html", {
+workbox.routing.registerNavigationRoute("/Aarthiscans/static/js/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
