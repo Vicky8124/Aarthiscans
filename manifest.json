@@ -1,0 +1,39 @@
+{
+  "background_color": "#ffffff",
+  "description": "",
+  "display": "standalone",
+  "lang": "en",
+  "name": "Wee Do",
+  "short_name": "Wee Do",
+  "start_url": "/?utm_source=web_app_manifest",
+  "orientation": "portrait",
+  "related_applications": [
+    {
+      "platform": "itunes",
+      "id": "com.aarthiscans.Weedomobileapp"
+    },
+    {
+      "platform": "play",
+      "url": "http://play.google.com/store/apps/details?id=com.aarthiscans.taskapp",
+      "id": "com.aarthiscans.taskapp"
+    }
+  ],
+  "prefer_related_applications": true,
+  "icons": [
+    {
+      "src": "/Aarthiscans/pwa/chrome-icon/chrome-icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/Aarthiscans/pwa/chrome-icon/chrome-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/Aarthiscans/pwa/chrome-icon/chrome-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
